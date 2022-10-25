@@ -4,7 +4,9 @@
 	
     <groupId>uk.nhs.interoperability</groupId>
     <artifactId>reference-server-lib</artifactId>
-    <version>1.3.4-SNAPSHOT</version>
+    <!-- <version>1.3.4-SNAPSHOT</version>  -->
+    <version>1.4.4</version>
+    
 	
     <name>reference-server-lib</name>
     <packaging>jar</packaging>
@@ -42,7 +44,8 @@
     	<dependency>
     		<groupId>uk.nhs.interoperability</groupId>
   			<artifactId>fhir-model-utils</artifactId>
-  			<version>1.3.4-SNAPSHOT</version>
+  			<!-- <version>1.3.4-SNAPSHOT</version> -->
+            <version>1.4.4</version>
   		</dependency>
   		
         <!-- Next two are required for FHIR validation routines -->
